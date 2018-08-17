@@ -1,0 +1,4 @@
+# median extension
+comment = 'median function'
+default_version = '0.0.1'
+relocatable = true
