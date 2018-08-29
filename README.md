@@ -9,7 +9,7 @@ make install && make installcheck
 
 ### Usage
 ```sql
-CREATE EXTENSION MEDIAN
+CREATE EXTENSION median
 SELECT median('{6,3,8,5,1}'::int[]); //outputs 5
 ```
 

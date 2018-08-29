@@ -85,6 +85,6 @@ median(PG_FUNCTION_ARGS) {
             swap(&array2[j],&array2[j+1]);
       }
    }
-   int middle = (arrayLength + 1) / 2 - 1; ;
+   int middle = (arrayLength + 1) / 2 - 1;
    PG_RETURN_FLOAT8(array2[middle]);
 }
